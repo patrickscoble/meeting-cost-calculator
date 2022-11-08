@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Meeting Cost Calculator</string>
+    <string name="clock">00:00:00</string>
+	<string name="cost">$0.00</string>
+	<string name="start">Start</string>
+	<string name="finish">Finish</string>
+	<string name="resume">Resume</string>
+	<string name="reset">Reset</string>
+	<string name="send">Send</string>
+	<string name="start_meeting_name">Name</string>
+	<string name="start_meeting_attendees">Attendees</string>
+</resources>

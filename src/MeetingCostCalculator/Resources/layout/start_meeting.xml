@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        style="@style/FormRow">
+
+        <TextView
+            android:text="@string/start_meeting_name" 
+            style="@style/FormLabel" />
+
+        <EditText
+            android:id="@+id/start_meeting_name"
+            android:inputType="textCapWords"
+            style="@style/FormInput" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        style="@style/FormRow">
+
+        <TextView
+            android:text="@string/start_meeting_attendees"
+            style="@style/FormLabel" />
+
+        <EditText
+            android:id="@+id/start_meeting_attendees"
+            android:inputType="number"
+            style="@style/FormInput" />
+
+    </RelativeLayout>
+
+</LinearLayout>
